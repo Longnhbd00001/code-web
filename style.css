@@ -1,9 +1,87 @@
-html{
-font-size: 62.5%;
+html {
+    font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 
 }
+
+.header {
+    display: flex;
+}
+
+img {
+    margin-left: 3cm;
+}
+
+.nav {
+    font-size: 14px;
+    margin-left: 3cm;
+    line-height: 1.4;
+}
+
+.nav li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav .subnav1 {
+    position: absolute;
+    display: flex;
+    box-shadow: 0 0 10px ;
+    display: none;
+}
+
+nav .subnav1 a {
+    color: black;
+}
+
+nav .subnav1>li:hover>a {
+    color: red;
+
+}
+
+.nav.subnav2{
+    position: absolute;
+    display: flex;
+    box-shadow: 0 0 10px ;
+    display: none;
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 54px 0 0;
+    padding-left: 1cm;
+    display: block;
+
+}
+.nav li:hove .subnav1{
+    display: block;
+}
+
+.nav li:hover a {
+    color: red;
+
+}
+.nav .subnav2 {
+    position: absolute;
+    display: flex;
+}
+
+nav .subnav2 a {
+    color: black;
+}
+
+nav .subnav2>li:hover>a {
+    color: red;
+
+}
+.nav li:hove .subnav2{
+    display: block;
+}
+
